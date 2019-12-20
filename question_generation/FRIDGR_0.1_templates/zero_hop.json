@@ -1,0 +1,14 @@
+[
+{
+    "text": ["How many <Z> <M> <C> <S>", "What number of <Z> <M> <C> <S>", "Number of <Z> <M> <C> <S>"], 
+    "nodes": [{"inputs": [], "type": "scene"}, {"side_inputs": ["<Z>", "<M>", "<C>", "<S>"], "inputs": [0], "type": "filter_count"}], 
+    "params": [{"type": "Size", "name": "<Z>"}, {"type": "Freshness", "name": "<M>"}, {"type": "Category", "name": "<C>"}, {"type": "Shape", "name": "<S>"}], 
+    "constraints": []
+},
+{
+    "text": ["Are there any <Z> <M> <C> <S>", "Any <Z> <M> <C> <S>", "Is there <Z> <M> <C> <S>", "Do I have <Z> <M> <C> <S>"], 
+    "nodes": [{"inputs": [], "type": "scene"}, {"side_inputs": ["<Z>", "<C>", "<M>", "<S>"], "inputs": [0], "type": "filter_exist"}], 
+    "params": [{"type": "Size", "name": "<Z>"}, {"type": "Freshness", "name": "<M>"}, {"type": "Category", "name": "<C>"}, {"type": "Shape", "name": "<S>"}], 
+    "constraints": []
+}
+]

@@ -1,0 +1,49 @@
+{
+    "shapes": {
+        "donut": {"name": "Torus.013", "file": "3dmodels/dishes/new-donut/donut.blend"},
+        "coke can": {"name": "coca-cola", "file": "3dmodels/drinks/coca-cola/coca-cola.blend"},
+        "coke bottle": {"name": "Bottle", "file": "3dmodels/drinks/coca-cola2/Coca_Cola.blend"},
+        "beer": {"name": "Bottle", "file": "3dmodels/drinks/crown-beer/BeerCrown.blend"},
+        "apple": {"name": "Icosphere", "file": "3dmodels/fruits/apple/apple.blend"},
+        "dark apple": {"name": "Cube", "file": "3dmodels/fruits/apple2/Apple.blend"},
+        "banana": {"name": "banana.001", "file": "3dmodels/fruits/banana/banana.blend"},
+        "dark banana": {"name": "Cylinder", "file": "3dmodels/fruits/banana2/Banana.blend"},
+        "lemon": {"name": "lemon", "file": "3dmodels/fruits/new-lemon/Lemon.blend"},
+        "orange": {"name": "Orange", "file": "3dmodels/fruits/orange/Orange_cycles.blend"},
+        "pear": {"name": "pear.002", "file": "3dmodels/fruits/pear/green_pears.blend"},
+        "egg": {"name": "EGG", "file": "3dmodels/ingredients/new-egg/EGG.blend"},
+        "meat": {"name": "Raw meat", "file": "3dmodels/ingredients/meat/Raw meat.blend"},
+        "dark meat": {"name": "Plane", "file": "3dmodels/ingredients/meat2/Meat.blend"},
+        "milk": {"name": "Package", "file": "3dmodels/ingredients/new-milk/Milk Carton Model.blend"},
+        "tomato": {"name": "Cube", "file": "3dmodels/vegetables/tomato/Tomato.blend"},
+        "fish": {"name": "Rudd-Fish", "file": "3dmodels/ingredients/ruddfish/Rudd_Fish.blend"}
+    },
+  "colors": {
+    "gray": [87, 87, 87],
+    "red": [173, 35, 35],
+    "blue": [42, 75, 215],
+    "green": [29, 105, 20],
+    "brown": [129, 74, 25],
+    "purple": [129, 38, 192],
+    "cyan": [41, 208, 208],
+    "yellow": [255, 238, 51]
+  },
+  "materials": {
+    "metal": "MyMetal"
+  },
+  "sizes": {
+    "large": 0.8,
+    "small": 0.5
+  },
+  "categories": {
+    "dessert": ["donut"],
+    "drink": ["coke can", "coke bottle", "beer"],
+    "fruit": ["apple", "dark apple", "banana", "dark banana", "lemon", "orange", "pear"],
+    "vegetable": ["tomato"],
+    "ingredient": ["egg", "meat", "dark meat", "milk", "fish"]
+  },
+  "freshness": {
+    "fresh": ["donut", "coke can", "coke bottle", "beer", "apple", "banana", "lemon", "orange", "pear", "egg", "meat", "milk", "tomato", "fish"],
+    "expired": ["dark meat", "dark banana", "dark apple"]
+  }
+}
