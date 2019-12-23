@@ -2,7 +2,7 @@
 
 This is the code used to generate the **FRIDGR** dataset:
 
-**[Smart Home Appliances: Chat with Your Fridge](https://arxiv.org/pdf/1912.?????.pdf)**
+**[Smart Home Appliances: Chat with Your Fridge](https://arxiv.org/pdf/1912.09589.pdf)**
 
 This project forks [CLEVR](https://cs.stanford.edu/people/jcjohns/clevr/) project and modifies it for *smart fridge* application. You can use this code to render synthetic images and compositional questions for those images, like this:
 
